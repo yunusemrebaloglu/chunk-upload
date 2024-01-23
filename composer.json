@@ -1,0 +1,36 @@
+{
+    "name": "yunusemrebaloglu/chunk-upload",
+    "description": "A Laravel package for quick deployment tasks.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YunusEmreBaloglu\\ChunkUpload\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YunusEmreBaloglu\\ChunkUpload\\ChunkUploadServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Yunus Emre Baloğlu",
+            "email": "yunus@yunusemre.co"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "nesbot/carbon": "^3.0.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yunusemrebaloglu/chunk-upload"
+        }
+    ]
+}
