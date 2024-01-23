@@ -49,7 +49,7 @@ After the file is uploaded, you can process the file on the disk you have provid
 ```php
 Storage::disk('custom_disk')->makeDirectory($model->id . '/files/');
 
-File::move(Storage::disk('The disk name you specified via config')->path($request->file_name), Storage::disk('listing')->path($model->id . '/zip/' . $request->file_name));
+File::move(Storage::disk('The disk name you specified via config')->path($request->file_name), Storage::disk('listing')->path($model->id . '/files/' . $request->file_name));
 ```
 
 ### Delete Files
