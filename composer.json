@@ -1,6 +1,6 @@
 {
     "name": "yunusemrebaloglu/chunk-upload",
-    "description": "A Laravel package for quick deployment tasks.",
+    "description": "A Laravel package for chunk upload.",
     "type": "library",
     "license": "MIT",
     "autoload": {
